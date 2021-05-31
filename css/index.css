@@ -9,7 +9,7 @@ body,html{
     overflow:hidden;
 	background: linear-gradient(-90deg, #000000, #777777);
 	background-size: 400% 400%;
-	animation: gradient 15s ease-out infinite;
+	animation: gradient 10s cubic-bezier(1, 0.05, 0.11, 1) infinite;
 }
 
 @keyframes gradient {
@@ -30,7 +30,7 @@ body,html{
 
     position: fixed;
     top: 10%;
-    left: 12%;
+    left: 10%;
     margin-top: -100px;
     margin-left: -200px;
 
@@ -45,7 +45,7 @@ body,html{
     width:400px;
     position:fixed;
     top: 10%;
-    left: 12%;
+    left: 10%;
     margin-top: 5px;
     margin-left: -330px;
 
@@ -57,7 +57,7 @@ body,html{
     width:400px;
     position:fixed;
     top:30%;
-    left:12%;
+    left:10%;
     margin-top: 30px;
     margin-left: -200px;
 }
@@ -68,7 +68,7 @@ body,html{
     width:400px;
     position:fixed;
     top:20%;
-    left:12%;
+    left:10%;
     margin-top: 35px;
     margin-left: -200px;
 
@@ -85,7 +85,7 @@ ul{
     width:400px;
     position:fixed;
     top:20%;
-    left:12%;
+    left:10%;
     margin-top: 5px;
     margin-left: -250px;
     padding-left:50px;
