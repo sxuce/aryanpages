@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/index.css">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">  
+<script src="https://kit.fontawesome.com/921016af83.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<title>pat</title>
+</head>
+<body>
 
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Product+Sans');
+    </style>
+
+<div class="main"><a href="index.html">pat</a></div>
+<div class="links2" style="font-family:'Product Sans'">
+    <div id="content-1">learning python & javascript</div>
+    <div id="content-2">cool guy</div>
+    <div id="content-3">trying discord.js</div>
+    <div id="content-4">breaking linux machines</div>
+</div>
+
+<div class="links" style="font-family:'Product Sans'">
+    <ul>
+<a href="https://github.com/pattheman344"><i class="fab fa-github"></i>&nbsp;github&nbsp;</a>
+<a href="portfolio/index.html"><i class="fas fa-paint-brush"></i>&nbsp;portfolio&nbsp;</a>
+<a href="https://steamcommunity.com/id/pattheman344"><i class="fab fa-steam"></i>&nbsp;steam&nbsp;</a>
+    </ul>
+</div>
+
+<div class="links23" style="font-family:'Product Sans'">
+    <p><i class="fab fa-discord"></i>&nbsp;pat#0005</p>
+</div>
+</body>
+<script>
+    var divs = $('div[id^="content-"]').hide(),
+i = 0;
+
+(function cycle() {
+
+divs.eq(i).fadeIn(400)
+    .delay(3000)
+    .fadeOut(400, cycle);
+
+i = ++i % divs.length;
+
+})();
+</script>
+</html>
